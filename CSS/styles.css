@@ -2,6 +2,10 @@ body{
   padding-bottom: 40px;
 }
 
+h1, h2, h3, h4, p, a, input, button{
+  font-family:  'Roboto', sans-serif;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -20,14 +24,18 @@ footer {
 .footer-text{
   margin-top: 3px;
   margin-bottom: 3px;
-  /* margin: auto; */
 }
 
-li{
+.li-menu{
     padding: 2% 2% 2%;
     font-size: 2.5rem;
 }
 
 .search-line{
   padding: 10px;
+}
+
+.birth-date-picker{
+  padding-top: 4px;
+  padding-bottom: 0px;
 }
